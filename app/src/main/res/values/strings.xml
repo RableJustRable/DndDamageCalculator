@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DndDamageCalculator</string>
+    <string name="DamageDie">Damage Dice:</string>
+    <string name="DiceEntryField">1d8</string>
+</resources>
