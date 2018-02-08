@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">DndDamageCalculator</string>
-    <string name="DamageDie">Damage Dice:</string>
+    <string name="DamageDie">Damage Formula:</string>
     <string name="DiceEntryField">1d8</string>
+    <string name="use_superiority_die">Use Extra Die?</string>
+    <string name="superiority_die">Extra Dice:</string>
 </resources>
