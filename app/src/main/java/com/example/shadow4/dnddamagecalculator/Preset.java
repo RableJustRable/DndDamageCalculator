@@ -32,7 +32,7 @@ public class Preset {
     }
 
     //for when its grabbed straight from shared preferences
-    public Preset(String value, String regex){
+    public Preset(String value, String regex) throws NullPointerException{
         String[] valueSplit = value.split(regex);
         fillPreset(valueSplit[0],valueSplit[1],valueSplit[2],valueSplit[3],Boolean.parseBoolean(valueSplit[4]),Boolean.parseBoolean(valueSplit[5]),Boolean.parseBoolean(valueSplit[6]));
     }
@@ -56,6 +56,12 @@ public class Preset {
     }
     //Default values for initial creation
     public Preset(){
-        
+        this.name = "Empty";
+        this.damFormula = "2d8";
+        this.extraDiceFormula = "1d6";
+        this.gwfRerolls = "1,2";
+        this.savageAttack = false;
+        this.useExtraDice = false;
+        this.gwf = false;
     }
 }
